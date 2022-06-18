@@ -1,27 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Galancee</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
 <html>
- <head><link rel="stylesheet" href="mystyle.css" type="text/css"></head>
-  <style>
-	  @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+<head>
+  <link href="//db.onlinewebfonts.com/c/75c07708e90531cc34c0292eb8fcafa2?family=Opificio" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+   <!-- Navigation -->
+  <header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
     
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-  </style>
-  <body>
-    <div class="wrapper">
-        <div id="d1">
-<nav>
-<ul>
- <li><a href='https://xfedyx.github.io'>Home</a></li>
- <li><a href='https://xfedyx.github.io/aboutme'>About me</a></li>
-   <li><a href='https://xfedyx.github.io/social'>Social Media</a></li>
-</ul>
-</nav>
+  <h4 class="logo">
+      <img src="https://i.imgur.com/mwMBmVB.png" width="140" height="22" alt="Logo Galancee"/></h4>
+    
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li class=casa><a href="#hero">Home</a></li>
+        <li class=servizione><a href="#servizi">Servizi</a></li>
+        <li class=teammone>
+          <a href="#teammer">Team </a></li>
+        <li class=chisiamoboh><a href="#chisiamobohh">Chi siamo</a></li>
+        <li class=lavorazione><a href="#portfolionostro">Portfolio</a></li>
+        <li class=nonciscrivete><a href="#contact">Contattaci</a></li>
+        <li><form action="Google.it/?servizi&site:www.galancee.it"><input name="cerca" type="text" />
+  <input name="Submit" value="Cerca" type="submit"/></form>
+     </li>
+    </ul>
+  </section>
+    <br><br><br><br><br>
+   
+  </header>
+     <!-- dark mode -->
+    <div class="buttone"><button onclick="myFunction()">Passa a "dark mode"</button></div>
+    
+ 
+  <!-- gif centrale -->
+  <div class="centrale" id="centrale">
+    <h2 class="centrale_header"><img src="https://i.imgur.com/Xna6EpK.gif"  height="200"/></h2>
+  </div>
+  
+  
+<!-- Servizi -->
+  <div class="servizi" id="servizi">
+    <h2 class="h2">Servizi</h2>
+<div class="flexboxvai">
+   <div><img class="img-centrata"
+ src="https://i.imgur.com/UFNsWnx.png">
+ </div>
+  
+  <div><img class="img-centrata"
+ src="https://i.imgur.com/kjcPp18.png"></div>
+  
+  <div><img class="img-centrata"
+ src="https://i.imgur.com/zDvw8iI.png"></div>
+  </div>
+    
+    <!-- Team -->
+    <div class="flex-container">
+  <div class="team">
+    <h2 id="teammer" class="h2_team"><br>Team</h2><br>
+    <h1>Dietro un <font color="#ff7c75">grande lavoro</font><br>
+      c’è sempre un <font color="#ff7c75">grande team.</font></h1>
+   <br><br>
+    <p>Galancee è una <font color="#ff7c75"><b>Digital Agency</b></font> che si occupa di creare dei percorsi di digitalizzazione e potenziamento attraverso progetti comunicativi e Adv, utilizzando, a seconda del contesto, i social più indicati.<br><br>
+Il team è composto da tre studentesse dell’Accademia di Belle Arti di Napoli che si occupano di Design della Comunicazione Visiva.<br><br>
+Il nostro <font color="#ff7c75"><b>approccio sperimentale</b></font> si basa su un’approfondita analisi del contesto di partenza dei nostri clienti, per poi svilupparne un preciso piano di comunicazione e marketing. Infine, lo step finale è quello della raccolta dei feedback per valutare il lavoro svolto.</p>
+         
 </div>
-<div id="d2">
-<main>
-  <img src="https://scontent.ffco4-1.fna.fbcdn.net/v/t39.30808-6/258595228_4518719711551725_2530386486823129783_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=MLCue1WbzqsAX-kMJb5&_nc_ht=scontent.ffco4-1.fna&oh=00_AT8VFj6PAGtf0FDMgTG_yb0xsvU_mURcJmje4I5tox68Aw&oe=61EE4EAC" alt="Federica" width="200">
-  <h1>It's Federica</h1>
-  <p>If you want you can discover<br> something more <a href='https://xfedyx.github.io/aboutme'>about me!</a></p>
-</div>
-</main>
+      <div class="img-cerchi"><img class="cerchi-immagine" align=right width= 500vh src="https://i.imgur.com/1OQrXDN.png" alt="Cerchi">
+      </div>
+      </div>
+    </div>
+  
+     <!-- Chi siamo -->
+   
+ <h2 id="chisiamobohh" class="h2_chisiamo">Chi siamo</h2><br><br><br>
+ 
+     <!-- Fede -->
+  <footer class="footer">
+    <article class="footer_column_foto">
+<img src="https://i.imgur.com/7jCcMFq.png"  class="cards_foto"/>
+      <h3>Federica</h3>
+      <p>22 anni<br>Editorial design</p>
+    </article>
+    
+    <article class="footer_column_chi">
+<a href="https://www.behance.net/gallery/136564665/Personal-Branding"><img src="https://i.imgur.com/PULxL3W.png"  class="cardschi_ognuna"/></a>
+    </article>
+    <article class="footer_column_chi">
+<img src="https://i.imgur.com/VqRCWwN.png"  class="cardschi_ognuna"/>
+    </article>
+    <article class="footer_column_chi">
+      <img src="https://i.imgur.com/AUbBnTZ.png" class="cardschi_ognuna"/>
+    </article>
+  </footer><br><br><br>
+    
+     <!-- Camilla -->
+  <footer class="footer">
+    <article class="footer_column_foto">
+<img src="https://i.imgur.com/oFzMejc.png"  class="cards_foto"/>
+      <h3>Camilla</h3>
+      <p>21 anni<br>Visual design</p>
+    </article>
+    
+    <article class="footer_column_chi">
+<img src="https://i.imgur.com/SPqta6l.png" alt=""  class="cardschi_ognuna"/>
+    </article>
+    <article class="footer_column_chi">
+<img src="https://i.imgur.com/67L8sHe.png"  class="cardschi_ognuna"/>
+    </article>
+    <article class="footer_column_chi">
+      <img src="https://i.imgur.com/ssuEiy2.png" class="cardschi_ognuna"/>
+    </article>
+  </footer><br><br><br>
+    
+    <!-- Nunzia -->
+  <footer class="footer">
+    <article class="footer_column_foto">
+<img src="https://i.imgur.com/geJP3oe.png"  class="cards_foto"/>
+      <h3>Nunzia</h3>
+      <p>32 anni<br>Illustration design</p>
+    </article>
+    
+    <article class="footer_column_chi">
+<a href="https://www.behance.net/gallery/145670049/Starbucks-Cabala-Edition"><img src="https://i.imgur.com/Hts8YOS.png" alt=""  class="cardschi_ognuna"/></a>
+    </article>
+    
+    <article class="footer_column_chi">
+<a href="https://www.behance.net/gallery/145670851/Saul-Bass-Tribute"><img src="https://i.imgur.com/KXeT38m.png"  class="cardschi_ognuna"/></a>
+    </article>
+    <article class="footer_column_chi">
+      <a href="https://www.behance.net/gallery/145671097/Napoli-Citta-della-Musica-Branding"><img src="https://i.imgur.com/qRalHEN.png" class="cardschi_ognuna"/></a>
+    </article>
+  </footer><br><br><br>
+    
+    
+    
+     <!-- Portfolio -->
+    <h2 id="portfolionostro" class="h2_chisiamo">Portfolio</h2><br><br><br><br>
+ 
+  <footer class="footer_portfolio">
+    <article class="footer_column">
+<img src="https://i.imgur.com/SPqta6l.png" alt=""  class="cards"/>
+      <h3>Gagliotta</h3>
+      <p>Restyling logo e comunicazione visiva</p>
+    </article>
+    <article class="footer_column">
+<img src="https://i.imgur.com/67L8sHe.png"  class="cards"/>
+      <h3>Kladì</h3>
+      <p>Design del prodotto e comunicazione visiva</p>
+    </article>
+    <article class="footer_column">
+      <img src="https://i.imgur.com/ssuEiy2.png" class="cards"/>
+      <h3>Galancee</h3>
+      <p>Creazione identità visiva e logo</p>
+    </article>
+  </footer>
+    <br><br><br><br><br><br>
+  
+    <!-- Footer Section -->
+  <section class="finale"> 
+    
+  <div class="footer_banner" id="contact">
+    
+    <h2 class="h2_contatti">Contattaci</h2>
+ 
+    <div class="button"><a href="javascript:void( window.open( 'https://form.jotform.com/221595722596365', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) ">Clicca qui</a></div><br><br><br><br><br><br>
+  </div>
+  <!-- Copyrights Section -->
+   
+ 
+  <div class="copyright">
+    
+    <a href="https://www.instagram.com/galanceedigitalagency/"><img width="40px" src="https://i.imgur.com/J1GLfas.png"></a>
+    &nbsp
+    <a href="https://www.linkedin.com/in/galancee-digital-agency-a68666241/"><img width="40px" src="https://i.imgur.com/xWLfgr9.png"></a>
+    &nbsp
+    <a href="mailto:galanceedigitalagency@gmail.com"><img width="40px" src="https://i.imgur.com/80wVPnu.png"></a>
+    <br><br>
+    © All rights reserved</div>
+</div><br><br>
+    </section>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
 </body>
 </html>
