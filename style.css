@@ -15,24 +15,31 @@ body {
 .dark-mode {
   background-color: #2b2b2b;
 }
+
 .dark-mode h2 {
   color: #f2f2f2;
 }
+
 .dark-mode p {
   color: #f2f2f2;
 }
+
 .dark-mode h1 {
   color: #f2f2f2;
 }
+
 .dark-mode footer .footer_column_foto p {
   color: #f2f2f2;
 }
+
 .dark-mode footer .footer_column_foto h3 {
   color: #f2f2f2;
 }
+
 .dark-mode footer .footer_column h3 {
   color: #f2f2f2;
 }
+
 .dark-mode footer .footer_column p {
   color: #f2f2f2;
 }
